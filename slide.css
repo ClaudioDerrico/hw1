@@ -1,0 +1,329 @@
+#img1{
+    background-image: url(http://www.salusphaera.com/cms-admin/materiale/gallerie/img-49-big.jpg);
+    background-position:center;
+    background-size:cover;
+    margin-top: 0px;
+  
+}
+#img2{
+    background-image: url(http://www.salusphaera.com/cms-admin/materiale/gallerie/img-2-big.jpg);
+    background-position:center;
+    background-size:cover;
+    margin-top: 0px;
+  
+}
+#img3{
+    background-image: url(http://www.salusphaera.com/cms-admin/materiale/gallerie/img-3-big.jpg);
+    background-position:center;
+    background-size:cover;
+    margin-top: 0px;
+  
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.2) ;
+    z-index: 0;
+    margin-top: -21px;
+    
+   
+}
+
+.item{
+    width:100%;
+    height:600px;
+    margin-top: -40px;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.item h1{
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 52.8px;
+    font-weight: 700;
+    color: #FCCB11;
+    line-height: 1em;
+    font-family: 'Roboto Flex', sans-serif;
+  }
+  
+
+
+
+body{
+    font-family: 'Monteserrat', sans-serif;
+    background-image:url("http://www.osterialeterme.it/wp-content/uploads/2017/12/sfondo-grigio.jpg") ;
+    margin:0;
+}
+
+
+
+nav {
+    width: 100%;
+    padding: 0 0;
+    background-color: #FCCB11;
+    border-bottom: 2px solid #444;
+    text-align: center;
+    
+
+}   
+
+
+/*fare menu tendina con riquadri*/
+
+.menu{
+    list-style: none;
+    margin:0;
+}
+
+.menu li{
+    display: inline-block;
+    text-transform: uppercase;
+    font-style: 14px;
+    position:relative;
+}
+
+.menu a{
+    display: block;
+    padding: 15px 30px;
+    text-decoration: none; 
+    color:black;
+    
+}
+
+.menu a:hover{
+ color:white
+}
+
+.sub-menu{
+    position: absolute;
+    top:30px;
+    left:0;
+   
+    border-bottom: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.menu .has-children:hover .sub-menu{
+   
+    visibility: visible;
+    opacity: 1;
+    top: 37px;
+}
+
+.sub-menu li{
+    width:100px;
+    font-size: 12px;  
+    z-index: 4;
+    left:-20px;  
+}
+
+
+
+.spazio{
+    height: 60px;
+}
+
+
+
+.presentazione{
+  font-size: 2em;
+  text-align: center;
+  margin-top: -20px;  
+}   
+
+.intestazione{
+    text-align: center;
+    color: #444;
+}
+
+.owl-prev{
+    
+    width: 70px !important;
+    height: 70px !important;
+    color: #FCCB11 !important;
+    font-size: 40px !important;
+    position: absolute !important;
+    top: 255px !important;
+    left: 0px !important;
+}
+
+
+.owl-next{
+   
+    width: 70px !important;
+    height: 70px !important;
+    color: #FCCB11 !important;
+    font-size: 40px !important;
+    position: absolute !important;
+    top: 255px !important;
+    right: 0px !important;
+     
+}
+
+
+.contenitore_immagini div{
+   background-color:white; 
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+    box-shadow: 10px 10px 5px #dedede;
+    
+}
+
+.contenitore_immagini{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contenuto{
+    margin-right: 30px;
+}
+
+.contenitore_immagini p{
+    margin-top: 10px;
+    width:305px;
+   
+}
+.contenuto a{
+font: 14px 'Open Sans', sans-serif;
+background-color: #FCCB11;
+color: black;
+padding: 6px;
+border: 1px solid black;
+text-transform: uppercase;
+text-decoration: none;
+text-align: center;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.blink_text{
+    animation:1s blinker linear infinite;
+    color:black;
+}
+
+.blink_text a{
+    color: black;
+}
+
+@keyframes blinker{
+0%{
+    opacity: 1.0;
+}
+
+50%{
+    opacity: 0.0;
+}
+
+100%{
+    opacity: 1.0;
+}
+}
+
+.utente{
+    margin-top: 200px;
+    width:30%;
+    margin: 33px auto;
+    background-color: #FCCB11;
+    padding:20px;
+    border:2px solid black;
+    border-radius: 5px;
+}
+
+.utente div{
+    border:2px solid black;
+    border-radius: 5px;
+    padding:10px;
+    margin-top: 10px;
+    background-color: whitesmoke;
+}
+
+.end{
+   border-top:2px solid black;
+    width : 100%;
+    background-color : #333333;
+}
+
+.end a{
+    text-decoration: none;
+    color:whitesmoke;
+    padding: 20px;
+}
+
+.end div{
+display:flex;
+justify-content: center;
+}
+
+.prova{
+    border-right: 2px solid black;
+}
+
+.stile{
+    background-color: #FCCB11;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 20px;
+}
+  
+.raggruppamento {
+    display: flex;
+    width: 30%;
+    margin: 33px 720px;
+
+}
+
+.raggruppamento div{
+    margin-left:20px;
+}
+
+.raggruppamento span{
+    display: block;
+    text-align: center;
+    padding:20px;
+}
+
+.barra{
+    margin-left: 37%;
+    margin-top: 120px;
+}
+
+.end2{
+    border-top:2px solid black;
+     width : 100%;
+     text-align : right;
+     background-color : #333333;
+     position:absolute;
+     bottom:0;
+     
+ }
+ 
+ .end2 a{
+     text-decoration: none;
+     color:whitesmoke;
+     padding: 20px;
+ }
+ 
+ .end2 div{
+ display:flex;
+ justify-content: center;
+ }
